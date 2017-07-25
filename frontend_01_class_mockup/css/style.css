@@ -1,0 +1,13 @@
+body,div,ul,li{margin: 0;padding: 0;}
+img{border: 0 none;vertical-align: top;}
+body{background-image: url(../images/background_pattern.png);}
+.mockup_list h1{text-align: center;color: #fff;}
+.mockup_list .thumbs{list-style: none;padding: 5px;width: 1150px;margin:0 auto;}
+.mockup_list .thumbs:after{display: block;clear: both;content: '';}
+.mockup_list .thumbs li{float: left;padding:5px;}
+.mockup_list .thumbs li a{display: block;width: 180px;height: 270px;overflow: hidden;text-decoration: none;}
+.mockup_list .thumbs li a img{width: 180px; /*transition:0.5s;*/}
+.mockup_list .thumbs li a:hover img{/*transform:scale(1.1,1.1);*/}
+.mockup_list .thumbs li a .members {position: relative;display: block;padding: 10px;width: 160px;height: 100px;line-height: 100px;background-color:rgba(0,0,0,0.7);color: #fff;text-align: center;}
+
+.thumbs.block{color:#fff;font-weight: bold;line-height: 1.6em;padding: 20px;width:1050px;}
