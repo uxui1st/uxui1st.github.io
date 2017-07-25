@@ -1,0 +1,7 @@
+body,div,ul,li,h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;}
+img{border: 0 none;vertical-align: top;}
+ul{list-style: none;}
+#menu:after{display: block;clear: both;content: '';}
+#menu li{float: left;}
+#logoS{text-indent: -9999px;width: 120px;height: 120px;background:url(../images/food-sense.png) 0 0 no-repeat;margin:10px auto;}
+#logo{text-indent: -9999px;width: 120px;height: 120px;background:url(../images/food-sense.png) 0 -60px no-repeat;background-size: 120px 180px;margin: 0 auto;}
