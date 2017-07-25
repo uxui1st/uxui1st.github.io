@@ -1,6 +1,6 @@
 body,div,ul,li{margin: 0;padding: 0;}
 img{border: 0 none;vertical-align: top;}
-body{background-image: url(../images/background_pattern.png);}
+body{background-image: url(../images/background_pattern.png);background-color: rgb(2, 136, 209);}
 .mockup_list h1{text-align: center;color: #fff;}
 .mockup_list .thumbs{list-style: none;padding: 5px;width: 1150px;margin:0 auto;}
 .mockup_list .thumbs:after{display: block;clear: both;content: '';}
