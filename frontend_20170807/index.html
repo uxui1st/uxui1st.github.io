@@ -10,6 +10,7 @@
         html,body{height: 100%;}
         body{}
         ul{list-style: none;}
+        img{border: 0;}
         .wrap{height: 100%;background:url(imgs/ux_1920.jpg) center bottom no-repeat;}
         .mockup{}
         .__team{width:1140px;margin:0 auto;padding-top: 200px;}
@@ -19,19 +20,13 @@
         .__team li img{width: 100%;vertical-align: top;}
     </style>
     <script src="js/jquery.js"></script>
+    
     <script>
     jQuery(function($){
-        var   
-        w = 420,
-        h = 700,
-        l = (screen.availWidth - w) / 2,
-	    t = (screen.availHeight - h) / 2,
-        popPage = '.popup';
-    
+        var w = 420,h = 700,l = (screen.availWidth - w) / 2,t = (screen.availHeight - h) / 2,popPage = '.popup';
         $(popPage).on('click',function(e){
             e.preventDefault();
             window.open(this.href,"window","width= "+ w + ",height=" + h + ",left=" + l + ",top=" + t + ", scrollbars = yes, location = no, toolbar = no, menubar = no, status = no");
-		    return false;
         });
     });
     </script>
@@ -41,31 +36,11 @@
     <div class="mockup-wrap-container">
       <div class="mockup">
         <ul class="__team">
-            <li>
-              <a href="#" target="_blank" class="popup">
-                <img src="imgs/d.jpg" alt="패딩">
-              </a>
-            </li>
-            <li>
-              <a href="#" target="_blank" class="popup">
-                <img src="imgs/d.jpg" alt="다이나믹">
-              </a>
-            </li>
-            <li>
-              <a href="https://goo.gl/fDY3Xi" target="_blank" class="popup">
-                <img src="imgs/d.jpg" alt="밥먹고하조">
-              </a>
-            </li>
-            <li>
-              <a href="https://goo.gl/jdqz3c" target="_blank" class="popup">
-                <img src="imgs/d.jpg" alt="짱빨라">
-              </a>
-            </li>
-            <li>
-              <a href="#" target="_blank" class="popup">
-                <img src="imgs/d.jpg" alt="상부상조">
-              </a>
-            </li>
+            <li><a href="" target="_blank" class="popup"><img src="imgs/a.jpg" alt="패딩"></a></li>
+            <li><a href="https://goo.gl/RXJC3L" target="_blank" class="popup"><img src="imgs/b.jpg" alt="다이나믹"></a></li>
+            <li><a href="https://goo.gl/fDY3Xi" target="_blank" class="popup"><img src="imgs/c.jpg" alt="밥먹고하조"></a></li>
+            <li><a href="https://goo.gl/jdqz3c" target="_blank" class="popup"><img src="imgs/d.jpg" alt="짱빨라"></a></li>
+            <li><a href="" target="_blank" class="popup"><img src="imgs/e.jpg" alt="상부상조"></a></li>
         </ul>      
       </div>
     </div>
