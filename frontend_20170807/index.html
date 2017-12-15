@@ -2,17 +2,71 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>웹퍼블리셔/프론트앤드개발자</title>
+    
     <style>
         body,div,ul,li{margin: 0;padding: 0;}
+        html,body{height: 100%;}
+        body{}
         ul{list-style: none;}
+        .wrap{height: 100%;background:url(imgs/ux_1920.jpg) center bottom no-repeat;}
+        .mockup{}
+        .__team{width:1140px;margin:0 auto;padding-top: 200px;}
+        .__team:after{display: block;clear: both;content: '';}
+        .__team li{float: left;padding: 0.5em;width: 20%;box-sizing: border-box}
+        .__team li a{display: block;}
+        .__team li img{width: 100%;vertical-align: top;}
     </style>
+    <script src="js/jquery.js"></script>
+    <script>
+    jQuery(function($){
+        var   
+        w = 420,
+        h = 700,
+        l = (screen.availWidth - w) / 2,
+	    t = (screen.availHeight - h) / 2,
+        popPage = '.popup';
+    
+        $(popPage).on('click',function(e){
+            e.preventDefault();
+            window.open(this.href,"window","width= "+ w + ",height=" + h + ",left=" + l + ",top=" + t + ", scrollbars = yes, location = no, toolbar = no, menubar = no, status = no");
+		    return false;
+        });
+    });
+    </script>
 </head>
-<body>
+<body class="all-bg">
   <div class="wrap">
     <div class="mockup-wrap-container">
       <div class="mockup">
-        
+        <ul class="__team">
+            <li>
+              <a href="#" target="_blank" class="popup">
+                <img src="imgs/d.jpg" alt="패딩">
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="popup">
+                <img src="imgs/d.jpg" alt="다이나믹">
+              </a>
+            </li>
+            <li>
+              <a href="https://goo.gl/fDY3Xi" target="_blank" class="popup">
+                <img src="imgs/d.jpg" alt="밥먹고하조">
+              </a>
+            </li>
+            <li>
+              <a href="https://goo.gl/jdqz3c" target="_blank" class="popup">
+                <img src="imgs/d.jpg" alt="짱빨라">
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="popup">
+                <img src="imgs/d.jpg" alt="상부상조">
+              </a>
+            </li>
+        </ul>      
       </div>
     </div>
   </div>
