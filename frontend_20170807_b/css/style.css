@@ -3,7 +3,7 @@ body{background: #f4f4f4 url(../images/agsquare.png);font-size: 12px; }
 .body-container{}
 .footer-container {text-align: center;padding: 2em 0 5em 0;background-color: #333;color: #fff;line-height: 1.6em;}
 .hide{display: none;}
-.pf-cen{width: 1440px;margin:0 auto;}
+.pf-cen{width: 1400px;margin:0 auto;}
 .pf-title{text-align: center;font-size:20px;margin: 1.5em 0;}
 .pf-list{list-style: none;padding-bottom: 20px;}
 .pf-list:after{display: block;clear: both;content: '';}
@@ -17,3 +17,8 @@ body{background: #f4f4f4 url(../images/agsquare.png);font-size: 12px; }
 .pf-item .title{color:#595959;font-weight: bold;margin: 0.5em 0;float: right;float: none;}
 .pf-item .desc{clear: both;padding-top: 1em;}
 #disqus_thread{border-top: 1px dashed #bbb;padding-top: 30px;}
+
+
+@media screen and (max-width:1400px) {
+ 
+}
