@@ -9,4 +9,5 @@ body{background-image: url(../images/01-whitepaper.png);}
 .mockup li{float: left;width:25%;}
 .mockup li a{display: block;padding: 8px;}
 .mockup li img{width: 100%;}
-.site-desc{padding: 12px;}
+.site-desc{padding: 12px;font-size: 14px;font-weight: bold;}
+.members{display: block;text-align: center;font-size: 12px;}
