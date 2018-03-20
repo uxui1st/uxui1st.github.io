@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	<title>일룸</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<style type="text/css">
+		img{border: 0;}
+		body,ul,li{margin: 0;padding: 0;}
+		.header{}
+		.header .r1{position: relative;border-bottom: 1px solid #dedede;padding-left:10px;}
+		.logo img{width: 100px;}
+		label[for="check_1"]{cursor: pointer;position: absolute;top: 0;right: 10px;}
+		.bar{display: block;width:24px;background-color: #CC1115;height: 3px;margin: 5px;}
+		#check_1 {display: none;}
+		.nav{display: none;}
+		.nav ul{list-style: none;}
+		.nav li{border-bottom: 1px solid #dedede;}
+		.nav li a{text-decoration: none;color: #333;display: block;text-indent: 1em;padding: 0.5em;}
+		#check_1:checked+.nav{display: block;}
+		#mainSlide img{width: 100%;}
+	</style>
+	<link rel="stylesheet" href="asset/bxslider/jquery.bxslider.css">
+	<script src="asset/jquery.min.js"></script>
+	<script src="asset/bxslider/jquery.bxslider.min.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<div class="r1">
+				<h1 class="logo"><a href="#"><img src="imgs/logo.gif" alt="로고" /></a></h1>
+				<label for="check_1"><span class="bar"></span><span class="bar"></span><span class="bar"></span></label>
+				
+			</div>
+			<input type="checkbox" id="check_1" />	
+			<div class="nav">
+				<ul>
+					<li><a href="#">제품</a></li>
+					<li><a href="#">웹카달로그</a></li>
+					<li><a href="#">신제품</a></li>
+					<li><a href="#">구매후기</a></li>
+					<li><a href="#">일룸소개</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="contents">
+				<div id="mainSlide">
+					<div><a href="#"><img src="imgs/main-slide-01.jpg" alt=""></a></div>
+					<div><a href="#"><img src="imgs/main-slide-02.jpg" alt=""></a></div>
+					<div><a href="#"><img src="imgs/main-slide-03.jpg" alt=""></a></div>
+					<div><a href="#"><img src="imgs/main-slide-04.jpg" alt=""></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+	$(document).ready(function(){
+		$('#mainSlide').bxSlider();
+	});
+	</script>
+</body>
+</html>
