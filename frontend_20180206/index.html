@@ -13,7 +13,7 @@
 		<div class="container">
 			<div class="mockup-wrap">
 				<ul class="mockup">
-					<li><a href="https://ovenapp.io/view/PuDVXBrR2fX3xSJhe7WKqs1KdPgxOUBC/dgSzU"><img src="images/splash-a.png" alt=""></a><span class="members">우정한, 서유리, 김히혜, 백정훈</span></li>
+					<li><a href="https://ovenapp.io/view/XYwE1QhSHQRA5jV0Lj5P9xee4c1Di7Ca/rrTgv"><img src="images/splash-a.png" alt=""></a><span class="members">우정한, 서유리, 김히혜, 백정훈</span></li>
 					<li><a href="https://ovenapp.io/view/PuDVXBrR2fX3xSJhe7WKqs1KdPgxOUBC/dgSzU"><img src="images/splash-b.png" alt=""></a><span class="members">이혜원, 남명현, 이병민</span></li>
 					<li><a href="https://ovenapp.io/view/PuDVXBrR2fX3xSJhe7WKqs1KdPgxOUBC/dgSzU"><img src="images/splash-c.png" alt=""></a><span class="members">김혜윰, 유연창, 김주애, 이하진</span></li>
 					<li><a href="https://ovenapp.io/view/PuDVXBrR2fX3xSJhe7WKqs1KdPgxOUBC/dgSzU"><img src="images/splash-d.png" alt=""></a><span class="members">백정민, 김아현, 장지현</span></li>
@@ -27,6 +27,14 @@
 			
 		</div>
 	</div>
-	<script src="js/init.js"></script>
+	<script>
+	jQuery(function($){
+		$('.mockup a').on('click',function(e){
+			e.preventDefault();
+			thisURL=$(this).attr('href');
+			window.open(thisURL,'','width=400,height=750,left=300,top=10')
+		})
+	});
+	</script>
 </body>
 </html>
