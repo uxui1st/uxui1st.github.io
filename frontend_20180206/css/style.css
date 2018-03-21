@@ -2,7 +2,7 @@ body,div,ul,li,img{margin:0;padding:0;border:0;}
 ol{list-style:none;}
 
 
-body{background-image: url(../images/01-whitepaper.png);}
+body{background-image: url(../images/fe-bg.png);background-size: cover}
 .container{width:1100px;margin:30px auto 20px;}
 .mockup{list-style:none;}
 .mockup:after{display:block;clear:both;content:'';}
